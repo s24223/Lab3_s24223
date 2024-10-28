@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+matplotlib
+seaborn
+reportlab
+shap
+fpdf2
+xgboost
