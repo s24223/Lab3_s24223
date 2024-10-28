@@ -1,6 +1,6 @@
 # W związku z tym, iż self_runner odmówił współpracy na PJATK-ASI-2024/Lab-3_s24223 zostało stworzone to repozytorium.
 
-Dokumentację modelu można znaleźć w pliku [Readme.pdf](https://github.com/s24223/Lab3_s24223/actions) w sekcji Artefakty w najnowszym przebiegu Workflow.
+Dokumentację modelu można znaleźć w pliku [Readme.pdf](https://github.com/s24223/Lab3_s24223/actions/runs/11557364175) w sekcji Artefakty w najnowszym przebiegu Workflow.
 
 # Opis kroków w prediction.py
 
