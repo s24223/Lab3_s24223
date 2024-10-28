@@ -42,7 +42,7 @@ print(data.isnull().sum())
 
 
 # Usunięcie kolumny 'Unnamed: 0' jeśli istnieje
-print("Usunięcie kolumny 'Unnamed: 0' jeśli istnieje...")
+print("Usuniecie kolumny 'Unnamed: 0' jeśli istnieje...")
 if 'Unnamed: 0' in data.columns:
     data = data.drop('Unnamed: 0', axis=1)
 
@@ -188,7 +188,7 @@ best_model_metrics = results[best_model_name]
 # Wyniki najlepszego modelu
 pdf.set_font("Helvetica", "B", 12)
 pdf.cell(200,10,f"Wybrany model: {best_model_name}", new_x="LMARGIN", new_y="NEXT")
-pdf.cell(200, 10, "\nModel wybrane ze względu na najlepsze parametry tj:", new_x="LMARGIN", new_y="NEXT")
+pdf.cell(200, 10, "\nModel wybrane ze wzgledu na najlepsze parametry tj:", new_x="LMARGIN", new_y="NEXT")
 pdf.set_font("Helvetica", "", 10)
 pdf.cell(200, 10, f"Model: {best_model_name}\n", new_x="LMARGIN", new_y="NEXT")
 pdf.cell(200, 10, f"MSE: {best_model_metrics['MSE']}", new_x="LMARGIN", new_y="NEXT")
