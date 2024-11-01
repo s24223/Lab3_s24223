@@ -30,4 +30,6 @@ jobs:
         with:
           name: results
           path: |
-            Readme.pdf
+            correlation_matrix.jpg
+            correlation_matrix_numeric.jpg
+            histograms.jpg
